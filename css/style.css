@@ -65,6 +65,10 @@ select {
   justify-content: center;
 }
 
+
+.none{
+  display: none;
+}
 @keyframes Button  {
   0%{
     transform: scale(1);
