@@ -79,7 +79,7 @@ function Nivel_De_Dificuldade() {
 
           Remover();
           Reset()
-          container.removeAttribute("onclick");
+          container.removeAttribute("onclick","Erro()");
           Iniciar_Container.classList.remove("none");
           Pontuacao.innerHTML = `<h2>Pontuação: 0 </h2>`;
           alert("fim de jogo para jogar novamente clique em iniciar jogo");
@@ -97,7 +97,7 @@ function Nivel_De_Dificuldade() {
 
           Remover();
           Reset()
-          container.removeAttribute("onclick");
+          container.removeAttribute("onclick", "Erro()");
           Iniciar_Container.classList.remove("none");
           Pontuacao.innerHTML = `<h2>Pontuação: 0 </h2>`;
           alert("fim de jogo para jogar novamente clique em iniciar jogo");
@@ -115,6 +115,7 @@ function Nivel_De_Dificuldade() {
 
           Remover();
           Reset()
+          container.removeAttribute("onclick", "Erro()");
           Iniciar_Container.classList.remove("none");
           Pontuacao.innerHTML = `<h2>Pontuação: 0 </h2>`;
           alert("fim de jogo para jogar novamente clique em iniciar jogo");
@@ -142,4 +143,6 @@ function Iniciar_Game() {
      Cronometro();
   }
 }
+
+
 
